@@ -33,6 +33,7 @@ html{
   nav {
     float: left;
     width: 20%;
+
   }
   
   footer {
@@ -85,3 +86,26 @@ a{
     background-size: 16px 16px;
     padding-right: 19px;
   }
+
+  ul li{
+    line-height: 25px;
+    list-style-type: square;
+  }
+
+
+  nav {
+  }
+  nav li {
+    list-style-type: none;
+    line-height: 75px;
+    font-size: 20px;
+    padding-right: 5px;
+    border: #a66 solid 2px;
+
+  }
+  ol li {
+    font-size: 12px;
+    list-style-type: upper-roman;
+  }
+
+ 
