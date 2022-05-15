@@ -56,3 +56,32 @@ html{
     text-align: center;
   }
   /* WRITE YOUR CODE BELOW HERE */
+
+a{
+  color: #a66;
+}
+
+  a:visited{
+    color: grey;
+  }
+
+  a:focus{
+    color:blue;
+    outline: none;
+  }
+
+  a:hover{
+    text-decoration: none;
+
+  }
+
+  a:active{
+    background-color: black;
+    color: #a66;
+  }
+
+  a[href^="http"]{
+    background:url("external-link-52.png") no-repeat 100% 0;
+    background-size: 16px 16px;
+    padding-right: 19px;
+  }
